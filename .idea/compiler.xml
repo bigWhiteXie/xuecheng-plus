@@ -2,15 +2,18 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
+      <profile name="Annotation profile for xuecheng-plus-parent" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="C:/maven-respority3.6.1/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
+        </processorPath>
         <module name="xuecheng-plus-base" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="xuecheng-plus-base" target="1.5" />
+      <module name="xuecheng-plus-base" target="1.8" />
       <module name="xuecheng-plus-parent" target="1.8" />
     </bytecodeTargetLevel>
   </component>
