@@ -11,7 +11,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="xuecheng-plus-base" target="1.5" />
-      <module name="xuecheng-plus-parent" target="1.5" />
+      <module name="xuecheng-plus-parent" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
